@@ -29,7 +29,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "globals": {
+      "contract":true,
+      "artifacts": true
+    }
   },
   "browserslist": [
     ">0.2%",
